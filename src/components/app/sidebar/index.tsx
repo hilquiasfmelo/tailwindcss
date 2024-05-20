@@ -30,18 +30,18 @@ export function Sidebar() {
       </Input.Root>
 
       <nav className="space-y-0.5">
-        <NavItem title="Home" icon={Home} />
+        <NavItem title="Início" icon={Home} />
         <NavItem title="Dashboard" icon={BarChart} />
-        <NavItem title="Projects" icon={SquareStack} />
-        <NavItem title="Tasks" icon={CheckSquare} />
-        <NavItem title="Reporting" icon={Flag} />
-        <NavItem title="Users" icon={Users} />
+        <NavItem title="Projetos" icon={SquareStack} />
+        <NavItem title="Tarefas" icon={CheckSquare} />
+        <NavItem title="Reportar" icon={Flag} />
+        <NavItem title="Usuários" icon={Users} />
       </nav>
 
       <div className="mt-auto flex flex-col gap-6">
         <nav className="space-y-0.5">
-          <NavItem title="Support" icon={LifeBuoy} />
-          <NavItem title="Settings" icon={Cog} />
+          <NavItem title="Suporte" icon={LifeBuoy} />
+          <NavItem title="Configurações" icon={Cog} />
         </nav>
 
         <UsedSpaceWidget />

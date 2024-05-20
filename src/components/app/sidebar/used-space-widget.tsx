@@ -3,10 +3,10 @@ export function UsedSpaceWidget() {
     <div className="flex flex-col gap-4 rounded-lg bg-violet-50 px-4 py-5">
       <div className="space-y-1">
         <span className="text-sm/5 font-medium text-violet-700">
-          Used space
+          Espaço usado
         </span>
         <p className="text-sm/5 text-violet-500">
-          Your team has used 80% of your available space. Need more?
+          Sua equipe usou 80% do seu espaço disponível. Preciso de mais?
         </p>
       </div>
 
@@ -19,13 +19,13 @@ export function UsedSpaceWidget() {
           type="button"
           className="text-sm font-medium text-violet-500 hover:text-violet-700"
         >
-          Dismiss
+          Liberar
         </button>
         <button
           type="button"
           className="text-sm font-medium text-violet-700 hover:text-violet-900"
         >
-          Upgrade plan
+          Atualizar plano
         </button>
       </div>
     </div>

@@ -15,10 +15,10 @@ export function Profile() {
 
       {/* truncate => adicionar o ... se o texto estourar o tamanho da div. */}
       <div className="flex flex-col truncate">
-        <span className="truncate text-sm font-semibold text-zinc-700">
+        <span className="truncate font-semibold text-zinc-700">
           Hilquias Ferreira Melo
         </span>
-        <span className="truncate text-sm text-zinc-700">
+        <span className="truncate text-xs text-zinc-700">
           hilquiasfmelo@hotmail.com
         </span>
       </div>
