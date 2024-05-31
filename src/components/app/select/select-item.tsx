@@ -13,7 +13,7 @@ export function SelectItem({ text, ...props }: SelectItemProps) {
       {...props}
       className="flex items-center justify-between gap-2 px-3 py-2.5 outline-none data-[highlighted]:bg-zinc-50"
     >
-      <Select.ItemText className="text-blue">{text}</Select.ItemText>
+      <Select.ItemText className="text-black">{text}</Select.ItemText>
       <Select.ItemIndicator>
         <Check className="h-4 w-4 text-violet-500" />
       </Select.ItemIndicator>
